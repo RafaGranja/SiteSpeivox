@@ -52,7 +52,7 @@ function Atuacao(){
         <video autoPlay muted loop disablePictureInPicture >
             <source src={video} type="video/mp4"/>
         </video>
-        <h1 className="montserrat title">Nossos Negócios</h1>
+        <h1 className="montserrat title nowrap">Nossos Negócios</h1>
         <div className="AccordionList">
             <AccordionItem index={1} open={open} icon="language" image={image1} onClick={(index) => setOpen(index)} 
             title="Desenvolvimento de Sites" 
